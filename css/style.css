@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*heding start */
+header{background-color:white;
+padding: 12px;
+}
+
+.wrapper {width: 92%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.logo { float: left;
+        width:27%;
+}
+
+
+.logo img{width: 100%;
+
+}
+
+
+.menu {float: right;
+
+width: 72%}
+
+.menu ul{float: right;
+margin-top: 30px;
+}
+.menu ul li{list-style: none;
+	float: left;
+	}
+
+.menu ul li a {     text-decoration: none;
+    				padding: 0 50px;
+    				font-family: sans-serif;
+    				font-weight: 600;
+    				font-size: 17px;
+    				color: #7293B8;
+    				text-transform: uppercase;
+    				display: inline-block;
+    				transition: .03s;
+
+}
+
+.menu ul li a:hover {
+	color:#050625}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*heding end */
+
+/*banner start */
+.banner{
+	background-image: url(../image/banner2.jpg);
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.b_content{
+width: 20%;
+
+background-color: rgba(11,11,11,.4);
+margin-top: 100px;
+margin-bottom: 358px; 
+
+}
+
+.b_content h1{
+	font-family:sans-serif; 
+	font-weight:400 ;
+	font-size:25px ;
+	color:white;
+	text-transform:uppercase; 
+	margin: 0;
+	padding-top: 30px;
+}
+
+.b_content h2{
+	font-family:sans-serif; 
+	font-weight:400 ;
+	font-size:25px ;
+	color:white;
+	text-transform:uppercase;
+	margin: 0; 
+}
+	
+.b_content p{
+	font-family:sans-serif; 
+	font-weight:400 ;
+	font-size:16px ;
+	color:white;
+	text-transform:lowercase; 
+
+}	
+
+span{text-transform: capitalize;
+
+}
+.b_content button{border-radius: 4px;
+	width:144px ;
+	height:35px ;
+	color:white;
+	font-size: 14px;
+	background-color: rgba(11,11,11,0.5);
+	border:none;
+	cursor: pointer;
+	margin-bottom: 20px;
+
+}
+.b_content button:hover{
+	color: #7293B8;
+}
+
+
+/*banner start */
